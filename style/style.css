@@ -12,9 +12,61 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
-.post-feed {
+#logo {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: rgb(207, 107, 107);
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 0.5rem;
+}
+
+nav ul li a {
+    color: rgb(207, 107, 107);
+}
+
+#title-zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #000;
+    height: 100vh;
+}
+
+#title-zone span,
+#title-zone i {
+    color: rgb(207, 107, 107);
+}
+
+#title-zone i {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+#main-title,
+#main-subtitle {
+    text-align: center;
+    color: rgb(207, 107, 107);
+}
+
+#main-title {
+    margin-top: 4rem;
+    font-size: 1.75rem;
+}
+
+#main-subtitle {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
 }
 
 .drink-pic {
@@ -29,10 +81,48 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ff0095;
+    background-color: #ececec;
     margin-bottom: 1rem;
 }
 
+.post-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #d0ff00;
+    width: 100%;
+}
+
+.post-title {
+    font-size: 2rem;
+    font-family: "Nanum Pen Script", cursive;
+}
+
+.post-subtitle {
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 1.25rem;
+}
+
 .post-description {
-    padding: 1rem;
+    padding: 1rem 2rem;
+    text-align: justify;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 1.25rem;
+}
+
+.ingredients {
+    margin-bottom: 1rem;
+}
+
+.drink-pic {
+    width: 90%;
+    height: 90%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.post-footer {
+    height: 2rem;
+    display: flex;
+    align-items: center;
 }
