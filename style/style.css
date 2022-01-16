@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+}
+
+header {
+    height: 3rem;
+    background-color: #d0ff00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.post-feed {
+}
+
+.drink-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.post {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff0095;
+    margin-bottom: 1rem;
+}
+
+.post-description {
+    padding: 1rem;
+}
