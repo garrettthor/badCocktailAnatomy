@@ -100,6 +100,8 @@ nav ul li a {
     justify-content: space-between;
     background: #d0ff00;
     width: 100%;
+    border-top: 2px solid rgb(207, 107, 107);
+    border-bottom: 2px solid rgb(207, 107, 107);
 }
 
 .post-title {
@@ -110,6 +112,7 @@ nav ul li a {
 .post-subtitle {
     font-family: "Nanum Pen Script", cursive;
     font-size: 1.25rem;
+    padding: 0 1rem;
 }
 
 .post-description {
