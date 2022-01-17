@@ -103,6 +103,7 @@ nav ul li a {
     border-top: 2px solid rgb(207, 107, 107);
     border-bottom: 2px solid rgb(207, 107, 107);
     margin-bottom: 1rem;
+    padding: 0.5rem;
 }
 
 .post-title {
