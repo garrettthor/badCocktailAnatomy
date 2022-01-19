@@ -19,6 +19,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 99;
 }
 
 #logo {
@@ -53,8 +54,23 @@ nav ul li a {
 }
 
 #title-zone i {
-    margin-top: 2rem;
-    font-size: 3rem;
+    margin: 2rem 0;
+    font-size: 5rem;
+}
+
+/* pulse animation jacked from https://reactgo.com/css-pulse-animation/ */
+
+.pulse {
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
 }
 
 #main-title,
@@ -109,12 +125,14 @@ nav ul li a {
 .post-title {
     font-size: 2rem;
     font-family: "Nanum Pen Script", cursive;
+    text-align: center;
 }
 
 .post-subtitle {
     font-family: "Nanum Pen Script", cursive;
     font-size: 1.25rem;
     padding: 0 1rem;
+    text-align: center;
 }
 
 .post-description {
@@ -154,6 +172,12 @@ nav ul li a {
     color: rgb(207, 107, 107);
 }
 
+#contact i {
+    color: #d0ff00;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
 #why {
     display: flex;
     flex-direction: column;
@@ -163,8 +187,14 @@ nav ul li a {
     height: 100vh;
 }
 
+#why i {
+    color: rgb(207, 107, 107);
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
 #why p {
-    padding: 2rem;
+    padding: 0 2rem;
     text-align: justify;
 }
 
