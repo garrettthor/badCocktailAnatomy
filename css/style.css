@@ -219,3 +219,14 @@ nav ul li a {
         margin: 0 auto;
     }
 }
+
+@media (max-height: 400px) {
+    .drink-pic {
+        width: 70%;
+    }
+
+    /* turns the header red just to test the media query (thx ai...) */
+    header {
+        background-color: red;
+    }
+}
