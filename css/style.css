@@ -225,8 +225,35 @@ nav ul li a {
         width: 70%;
     }
 
-    /* turns the header red just to test the media query (thx ai...) */
-    header {
-        background-color: red;
+    /* move the h1 down a tad and reduce the hand size */
+
+    #title-zone h1 {
+        margin-top: 2rem;
     }
 }
+
+/* for little tiny old iphones... so cute */
+/* just to make the li's fit with their bullets */
+/* also the titles apparently */
+/* and span */
+
+@media (max-width: 320px) {
+    .post ul li {
+        font-size: 0.8rem;
+    }
+
+    #title-zone h1 {
+        font-size: 1.5rem;
+    }
+
+    #title-zone span {
+        font-size: 0.8rem;
+    }
+}
+
+/* also adjust img size for tiny phone */
+
+@media (max-height: 374px) {
+    .drink-pic {
+        width: 50%;
+    }
