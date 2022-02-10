@@ -28,14 +28,20 @@ header {
     color: rgb(207, 107, 107);
 }
 
+#logo:hover {
+    cursor: pointer;
+}
+
 nav ul li {
     display: inline-block;
     list-style: none;
     padding: 0 0.5rem;
+    color: rgb(207, 107, 107);
+    text-decoration: underline;
 }
 
-nav ul li a {
-    color: rgb(207, 107, 107);
+nav ul li:hover {
+    cursor: pointer;
 }
 
 #title-zone {
@@ -88,6 +94,50 @@ nav ul li a {
     margin-bottom: 1rem;
     font-size: 1.05rem;
 }
+
+#hand {
+    transition: 0.5s;
+}
+
+#hand:hover {
+    cursor: pointer;
+    color: #d0ff00;
+}
+
+/* become a regular form */
+
+#become-a-regular-form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #000;
+}
+
+#email-input {
+    width: 15rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem;
+}
+
+#submit-email-btn {
+    width: auto;
+    padding: 0.25rem 0.5rem;
+    background-color: #d0ff00;
+    border: 3px solid rgb(207, 107, 107);
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+#submit-email-btn:hover {
+    cursor: pointer;
+    background-color: #8cac00;
+}
+
+/* post feed */
 
 #post-feed {
     padding-top: 3rem;

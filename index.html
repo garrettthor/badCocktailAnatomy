@@ -45,13 +45,13 @@
 
     <header>
         <div>
-            <a href="#"><i id="logo" class="fas fa-glass-cheers"></i></a>
+            <i id="logo" class="fas fa-glass-cheers"></i>
         </div>
         <nav>
             <ul>
-                <li><a href="#post-feed">top</a></li>
-                <li><a href="#contact">contact</a></li>
-                <li><a href="#why">why</a></li>
+                <li id="drinks-scroll-to">drinks</li>
+                <li id="contact-scroll-to">contact</li>
+                <li id="why-scroll-to">why</li>
             </ul>
         </nav>
     </header>
@@ -60,9 +60,19 @@
         <h1 id="main-title">bad cocktail anatomy</h1>
         <h2 id="main-subtitle">bad drawings of bad drinks</h2>
 
-        <span>scroll along, nothing to see here</span>
+        <span>touch the hand to begin</span>
         
-        <a href="#post-feed"><i class="far fa-hand-point-down pulse"></i></a>
+        <!-- <a href="#post-feed"> -->
+            <i id="hand" class="far fa-hand-point-down pulse"></i>
+        <!-- </a> -->
+
+        <form id="become-a-regular-form">
+            <span>become a <strong>regular</strong></span>
+            <input id="email-input" type="email" placeholder="your email" required netlify>
+            <input id="submit-email-btn" type="submit" value="start a tab">
+        </form>
+        
+        
 
 
     </div>
@@ -452,6 +462,8 @@
         <i class="fas fa-cocktail"></i>
         <p>i make good drinks for a living (depending on who you ask) so i figured i'd make some bad drinks for fun. we're just tryna get fukt up. please don't tell my supervisor.</p>
     </section>
+
+    <script src="js/main.js"></script>
     
 </body>
 </html>
